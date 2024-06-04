@@ -16,7 +16,7 @@ public class AccessActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_access);
+        setContentView(R.layout.nomina_access);
 
         etNombreAcceso = findViewById(R.id.etNombreAcceso);
         Button btnIngresar = findViewById(R.id.btnIngresar);
