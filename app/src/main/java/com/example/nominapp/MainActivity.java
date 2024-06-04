@@ -1,3 +1,5 @@
+//SE TERMINO EL PROYECTO
+
 package com.example.nominapp;
 import android.content.Intent;
 import android.os.Bundle;
