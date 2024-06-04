@@ -1,6 +1,5 @@
 package com.example.nominapp;
 
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -16,10 +15,11 @@ public class AccessActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.nomina_access);
+        setContentView(R.layout.activity_access);
 
         etNombreAcceso = findViewById(R.id.etNombreAcceso);
         Button btnIngresar = findViewById(R.id.btnIngresar);
+        Button btnSalir = findViewById(R.id.btnSalir);
 
         btnIngresar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,6 +33,9 @@ public class AccessActivity extends AppCompatActivity {
                 }
             }
         });
+        btnSalir.setOnClickListener(v -> finishAffinity());
     }
 }
+
+
 
